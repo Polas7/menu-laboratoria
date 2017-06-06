@@ -1,0 +1,22 @@
+@media (min-width: 200px) and (max-width: 534px) {
+    [class*="link"] {
+        width: 100%;
+    }
+    i{
+        border-top: 0;
+    }
+    #nav{
+    display: flex-block;
+    flex-direction: column;/*no separar*/
+}
+    a{
+        font-family: 'Dancing Script', cursive;
+        background-color: black;
+        font-size: 10px;
+        border-top-style: solid;
+
+    }
+    img{
+        display: none;
+    }
+}

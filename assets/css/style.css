@@ -1,0 +1,30 @@
+/*Menu*/
+#nav {
+  display: flex;
+  top: 0;
+  left: 0;
+  position: fixed;
+  font-size: 20px;
+  padding: 0px;
+  background-color: #db7878;
+  width: 100%;
+}
+#nav a{
+  display: flex;
+  flex-direction: row;/*no separar*/
+  justify-content: space-between;
+  border-right-style: solid;
+  padding: 21px;
+  width: 100%;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  text-align: center; 
+}
+
+a:hover{
+  background-color: pink;
+  padding: 21px;
+  cursor:pointer;
+}
